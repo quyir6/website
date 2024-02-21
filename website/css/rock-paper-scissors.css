@@ -1,0 +1,41 @@
+.rock-paper-scissors-game{
+  color: white;
+}
+.RPS {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  padding-top: 100px;
+}
+.move-icon {
+  font-size: 60px;
+  background-color: transparent;
+  border-radius: 500px;
+  border-color: white;
+  border-width: 3px;
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: white;
+}
+
+.score {
+  margin-top: 60px;
+  color: white;
+}
+
+.reset-score-button {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}

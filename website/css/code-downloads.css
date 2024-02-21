@@ -1,0 +1,23 @@
+.code-RPS {
+  padding-top: 100px;
+  font-family: Arial;
+  color: #3B5249;
+}
+
+.code-RPS-2 {
+  font-family: Arial;
+  color: #3B5249;
+  padding-top: 15px;
+}
+
+.project-buttons {
+  border-radius: 1000px;
+  background-color: transparent;
+  color: #A4B494;
+  border: none;
+  margin-top: 15px;
+  padding: 5px;
+  cursor: pointer;
+  font-family: fantasy;
+  box-shadow: 0 0 10px 1px #3B5249;
+}
