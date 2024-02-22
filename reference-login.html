@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/css/jack-website.css">
+  <link rel="stylesheet" href="/css/login-page.css">
+  
+</head>
+<body>
+
+  <header>
+    <a href="/index.html" class="logo header"> Gavin Jack Sullivan </a>
+
+    <button class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner">
+        </span>
+        </span>
+    </button>
+  </header>
+  
+  <div class="off-screen-menu">
+    <ul>
+      <a href="/index.html" class="header-link"> Home </a>
+      <a href="/about-me.html" class="header-link"> About Me </a>
+      <br><a href="/projects.html" class="header-link"> Projects </a>
+      <br><a href="/contact-info.html" class="header-link"> Contact Info</a>
+      <br><a href="/reference-login.html" class="header-link"> References</a>
+    </ul>
+  </div>
+
+  <div class="login-box">
+    <h1 class="login-h1">Login</h1>
+
+    <div class="password-box-parent">
+      <i class="fa-solid fa-key"></i>
+      <form class="password-box" id="inputBox"><input type="password" name="password" id="password-box" class="password-box" placeholder="Password"></form>
+      <span class="password-eye" onclick="eyeButtonOne()">
+        <i id="hide-1" class="fa-regular fa-eye"></i>
+        <i id="hide-2" class="fa-regular fa-eye-slash"></i>
+      </span>
+    </div>
+
+    <button type="submit" class="login-button" onclick="handleSubmit(event)">
+      LOGIN
+    </button>
+  </div>
+</body>
+<script src="/js/jack-website.js"></script>
+<script src="/js/refernce-login.js"></script>
+<script src="https://kit.fontawesome.com/75cb04a6d4.js" crossorigin="anonymous"></script>
+</html>
